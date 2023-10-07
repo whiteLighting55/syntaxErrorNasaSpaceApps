@@ -19,6 +19,10 @@ header{
     z-index: 100;
 }
 
+.imagen-principal{
+    width: 30%;
+    height: 30%;
+}
 
 nav {
     background-color: #333;
@@ -167,4 +171,5 @@ p{
 .texto-franklin {
     font-family: 'Franklin Gothic Light', sans-serif;
 }
+
 
