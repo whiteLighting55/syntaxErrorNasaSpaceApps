@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel = "icon" href =  
-"assets/icono.png" 
-        type = "image/x-icon"> 
+    <link rel="icon" href="assets/icono.png" type="image/x-icon">
 </head>
-<body>
-    <header >
-        <div class="logo" style="background-color: #00001b">
-            <img src="assets/logo_long.png" alt="Logo de la empresa" style=" height: 50px;" >
-        </div>        
-    </header>
-    <main>
-        <div style="width: 30%;">
 
-        </div>
+<body style="background-color: blue;
+min-height: 100%;
+padding: 5%;">
+    <header>
+    </header>
+
+    <main>
+        <form action="process_login.php" method="post"
+        style="background-color: bisque;
+        margin: 0;
+        padding: 5px;">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <input type="submit" value="Login">
+        </form>
+
     </main>
 
 </body>
+
 </html>
