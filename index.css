@@ -47,7 +47,7 @@ a:hover {
     padding: 60px 0;
 }
 
-.contenedor_galeria{
+.contenedor-galeria{
     display: flex;
     justify-content: space_evenly;
     flex-wrap: wrap;
