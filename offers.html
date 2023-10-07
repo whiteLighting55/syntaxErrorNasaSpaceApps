@@ -2,13 +2,6 @@
 <html>
 <head>
     <title>Menú</title>
-    <style>
-        /* Estilo inicial para ocultar la información adicional */
-        .info-adicional {
-            display: none;
-            margin-left: 20px;
-        }
-    </style>
 </head>
 <body>
     <h1>¡Conoce nuestras ofertas!</h1>
@@ -16,47 +9,35 @@
         <li>Ofertas Lunes
             <ul>
                 <li>
-                    <span class="paquete">Paqute Zathura con 20%</span>
-                    <div class="info-adicional">Información detallada sobre Paquete Zathura.</div>
+                    Paquete Zathura con 20%
+                    <p>Este paquete incluye: </p>
                 </li>
                 <li>
-                    <span class="paquete">Paquete Apollo con el 30%</span>
-                    <div class="info-adicional">Información detallada sobre Paquete Apollo.</div>
+                    Paquete Apollo con el 30%
+                    <p>El paquete Apollo te ofrece: </p>
                 </li>
                 <li>
-                    <span class="paquete">Paquete Challenger con el 50%</span>
-                    <div class="info-adicional">Información detallada sobre Paquete Challenger.</div>
+                    Paquete Challenger con el 50%
+                    <p>El paquete Challenger es perfecto para los amantes de la aventura. Incluye: </p>
                 </li>
             </ul>
         </li>
         <li>Ofertas Viernes
             <ul>
                 <li>
-                    <span class="paquete">Paqute Laika con 25%</span>
-                    <div class="info-adicional">Información detallada sobre Paquete Laika.</div>
+                    Paquete Laika con 25%
+                    <p>El paquete Laika es ideal para los amantes de las mascotas. Incluye: </p>
                 </li>
                 <li>
-                    <span class="paquete">Paquete Zathura con el 25%</span>
-                    <div class="info-adicional">Información detallada sobre Paquete Zathura.</div>
+                    Paquete Zathura con el 25%
+                    <p>Si te perdiste el paquete Zathura del lunes, ¡aquí tienes otra oportunidad! Incluye: </p>
                 </li>
                 <li>
-                    <span class="paquete">Paquete Sputnik con el 45%</span>
-                    <div class="info-adicional">Información detallada sobre Paquete Sputnik.</div>
+                    Paquete Sputnik con el 45%
+                    <p>El paquete Sputnik es perfecto para los viajeros espaciales. Incluye: </p>
                 </li>
             </ul>
         </li>
     </ul>
-
-    <script>
-        // JavaScript para mostrar/ocultar la información adicional cuando se hace clic en un paquete
-        const paquetes = document.querySelectorAll('.paquete');
-
-        paquetes.forEach((paquete) => {
-            paquete.addEventListener('click', () => {
-                const infoAdicional = paquete.nextElementSibling;
-                infoAdicional.style.display = infoAdicional.style.display === 'none' ? 'block' : 'none';
-            });
-        });
-    </script>
 </body>
 </html>
