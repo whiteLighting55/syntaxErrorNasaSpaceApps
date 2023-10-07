@@ -51,7 +51,6 @@ a:hover {
     display: flex;
     justify-content: space_evenly;
     flex-wrap: wrap;
-    background-image: url(https://acortar.link/iCoXAj);
 }
 	
 
@@ -66,6 +65,16 @@ a:hover {
 
 .imagetext{
 	color: white;
-	
+
+}
+
+.contenedor-total{
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+    background-image: url(https://acortar.link/iCoXAj);
+}
 	
 
