@@ -53,7 +53,7 @@ a:hover {
 }
 
 h2{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
 }
@@ -165,5 +165,6 @@ p{
 }
 
 .texto-franklin {
-    font-family: 'Franklin Gothic Heavy', sans-serif;
+    font-family: 'Franklin Gothic Light', sans-serif;
 }
+
