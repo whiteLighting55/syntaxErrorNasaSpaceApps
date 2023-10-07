@@ -38,3 +38,25 @@ a {
 a:hover {
     background-color: #555;
 }
+
+.contenedor{
+    width: 90%;
+    max-widht: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.contenedor_galeria{
+    display: flex;
+    justify-content: space_evenly;
+    flex-wrap: wrap;
+}
+
+.img-galeria{
+	width: 30%;
+	display: block;
+	margin-bottom: 15px;
+	box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+	cursor: pointer;
+}
