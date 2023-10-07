@@ -9,9 +9,9 @@ body {
 nav {
     background-color: #333;
     color: #fff;
-    text-align: center, center; /* Centrar elementos horizontalmente */
+    text-align: center; /* Centrar elementos horizontalmente */
     width: 100%; /* Hacer el menú más ancho */
-    height: 40px;
+    height: 32px;
 }
 
 ul {
