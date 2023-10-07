@@ -51,6 +51,7 @@ a:hover {
     display: flex;
     justify-content: space_evenly;
     flex-wrap: wrap;
+    background-image: url(https://acortar.link/iCoXAj);
 }
 	
 
@@ -62,4 +63,9 @@ a:hover {
 	box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 	cursor: pointer;
 }
+
+.imagetext{
+	color: white;
+	
+	
 
