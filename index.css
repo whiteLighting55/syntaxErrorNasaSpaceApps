@@ -3,18 +3,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    height: 100vh; /* Asegurar que el cuerpo ocupe toda la altura de la pantalla */
 }
 
 /* Estilos del menú */
 nav {
     background-color: #333;
     color: #fff;
-    text-align: center;
-    width: 100%;
+    text-align: center; /* Centrar elementos horizontalmente */
+    width: 100%; /* Hacer el menú más ancho */
     height: 40px;
 }
 
@@ -33,6 +29,9 @@ a {
     text-decoration: none;
     color: #fff;
     padding: 10px 20px;
+    display: inline-block; /* Permite centrado vertical */
+    line-height: 40px; /* Centrado vertical */
+    text-align: center; /* Centrado horizontal */
 }
 
 /* Cambiar color de fondo al pasar el mouse */
