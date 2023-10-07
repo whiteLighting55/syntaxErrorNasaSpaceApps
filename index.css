@@ -73,7 +73,9 @@ a:hover {
     max-width: 1200px;
     margin: auto;
     padding: 60px 0;
-    background-image: url(https://acortar.link/iCoXAj);
 }
+
+.gallery{
+	backgound-image: url(https://acortar.link/iCoXAj);
 	
 
