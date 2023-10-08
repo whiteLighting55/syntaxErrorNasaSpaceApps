@@ -15,18 +15,15 @@ body {
             list-style-type: none;
             padding: 0;
             margin: 0;
-            text-align: center;
+            text-align: left;
         }
 
         li {
             background-color: #FFF;
-            padding: 25px;
-            margin: left;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
             border-radius: 5px;
             display: inline-block;
             vertical-align: top;
-            width: 35%;
         }
 
         ul ul {
