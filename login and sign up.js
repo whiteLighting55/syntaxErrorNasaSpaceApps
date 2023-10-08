@@ -1,2 +1,8 @@
 const formulario =  document.querySelector("#loginform");
-alert(formulario)
+
+formulario.addEventListener("submit", validarFormulario );
+
+
+function validarFormulario(){
+    console.log("validando...")
+}
