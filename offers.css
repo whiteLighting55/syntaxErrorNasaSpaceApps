@@ -8,7 +8,7 @@ body {
 
         h1 {
             text-align: center;
-            background-color: #6F77FA;
+            background-color: #141975;
             color: #333;
             padding: 10px;
         }
@@ -21,7 +21,7 @@ body {
         }
 
         li {
-            background-color: #6F77FA;
+            background-color: #9697B7;
             padding: 20px;
             margin: 10px;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
