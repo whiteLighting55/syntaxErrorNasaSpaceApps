@@ -152,9 +152,9 @@ p{
     margin-left: 1%;
     margin-right: 1%;
     width: 23%;
-    height: 55%;
+    height: 700px;
     border-radius: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background-color: white;
 }
 
@@ -162,7 +162,7 @@ p{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 1400px;
+    height: 60%;
     width: 100%;
     box-shadow: 0px 15px 25px rgba(0,0,0,.50);
     background-color: black;
@@ -179,6 +179,5 @@ p{
 .texto-franklin {
     font-family: 'Franklin Gothic Light', sans-serif;
 }
-
 
 
