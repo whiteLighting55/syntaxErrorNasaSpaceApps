@@ -5,13 +5,13 @@
     </head>
     <body>
         <a href="javascript: genPDF">generar pdf</a>
-        <input type = "text" id="text">
+        <input type = "text" id="texto">
         <script type = text/javascript>
         function genPDF(){
-            var doc = new jsPDF();
-            let text = document.getElementById("text").value;
+            var doc=new jsPDF();
+            let text = document.getElementById("texto").value;
             doc.text(20,20,text);
-            doc.save("ticket de compra AstroXplore.pdf")
+            doc.save("ticket_de_compra_AstroXplore.pdf")
         }
         </script>
     </body>
