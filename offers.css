@@ -1,6 +1,5 @@
 body {
-  
-            font-family: Franklin Gothic Medium,sans-serif;
+            font-family: Arial, sans-serif;
             background-color: #000000;
             margin: 0;
             padding: 0;
@@ -28,10 +27,8 @@ body {
             border-radius: 5px;
             display: inline-block;
             vertical-align: top;
-            width: 50%;
+            width: 35%; /* Ajusta el ancho según tus preferencias */
             text-align: left;
-            align: content;
-        
         }
 
         ul ul {
@@ -42,3 +39,4 @@ body {
 
         p {
             margin: 10px 0;
+        }
