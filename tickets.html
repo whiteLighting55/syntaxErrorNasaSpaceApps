@@ -8,18 +8,25 @@
                 let name = document.getElementById("nombre_cliente").value;
                 let origin = document.getElementById("origin").value;
                 let destiny = document.getElementById("destiny").value;
-                doc.text(20,20,name)
-                doc.text(40,20,origin)
-                doc.addImage("assets/logo_longW", png, 50,50)
+                doc.text(20,20,name);
+                doc.text(20,60,origin);
+                doc.text(20,60,destiny);
+                //doc.text()
                 doc.save("ticket_de_compra_AstroXplore.pdf");
             }</script>
         <title>genera tus boletos</title>
     </head>
     <body>
-        <h1>complete </h1>
+        <h1>complete el formulario para su viaje</h1>
+        <p>nombre del cliente</p>
         <input type = "text" id="nombre_cliente" placeholder="introduzca el nombre del cliente">
+        <br>
+        <p></p>
         <input type="text" id="origin" placeholder="introduzca su orgen">
+        <br>
         <input type="text" id="destiny" placeholder="introduce tu lugar de destino">
+        <br>
+        <
         <a href="javascript:genPDF()">generar pdf</a>
     </body>
 </html>
