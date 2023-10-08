@@ -8,9 +8,11 @@
                 let name = document.getElementById("nombre_cliente").value;
                 let origin = document.getElementById("origin").value;
                 let destiny = document.getElementById("destiny").value;
-                doc.text(20,20,name);
-                doc.text(20,40,origin);
+                let flying_mode= document.getElementById("flying_mode").value;
+                doc.text(20,20,"nombre del pasajero: "+name);
+                doc.text(20,40,"lugar de origen: "+origin);
                 doc.text(20,60,destiny);
+                doc.text(20,80,flying_mode)
                 doc.save("ticket_de_compra_AstroXplore.pdf");
             }</script>
         <title>genera tus boletos</title>
@@ -20,11 +22,13 @@
         <p>nombre del cliente</p>
         <input type = "text" id="nombre_cliente" placeholder="introduzca el nombre del cliente">
         <br>
-        <p></p>
+        <p>lugar de origen del vuelo</p>
         <input type="text" id="origin" placeholder="introduzca su orgen">
         <br>
+        <p>lugar de destino</p>
         <input type="text" id="destiny" placeholder="introduce tu lugar de destino">
         <br>
+        <p>metodo de vuelo</p>
         <input type="text" id="flying_mode" placeholder="introduzca su modo de viaje">
         <br>
         <a href="javascript:genPDF()">generar pdf</a>
