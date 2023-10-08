@@ -9,28 +9,28 @@ body {
 
 header {
     background-color: #333;
-    padding: 20px;
+    padding: 1%;
 }
 
 header h1 {
-    font-size: 36px;
+    font-size: 500%;
     margin: 0;
 }
 
 h3{
-    margin-top: 10px;
+    margin-top: 1%;
 }
 
 .planet-card {
     display: flex;
     background-color: #1f1f1f;
     border-radius: 10px;
-    padding: 20px;
-    margin: 20px auto;
-    margin-left: 20px;
+    padding: 0.5%;
+    margin: 1% auto;
+    margin-left: 1%;
     max-width: 70%;
     float: left;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 2% rgba(0, 0, 0, 0.5);
 }
 
 .planet-image {
@@ -52,7 +52,7 @@ h3{
 
 .planet-details {
     flex: 2;
-    padding: 0 20px;
+    padding: 0 2%;
     text-align: left;
 }
 
@@ -69,7 +69,7 @@ h3{
 
 .planet-details ul li {
     font-size: 200%;
-    margin: 10px 0;
+    margin: 1% 0;
 }
 
 .planet-details p {
