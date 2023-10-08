@@ -6,9 +6,9 @@ app = Flask(__name__)
 def template():
     return render_template()
 
-@app.route('/ussername', methods = ['POST'])
+@app.route('/username', methods = ['POST'])
 def ussername():
-    ussername = request.form['ussername']
+    ussername = request.form['username']
     return "<h1>bienvenido" + ussername + "</h1>"
 
 if __name__ =='__main__':
