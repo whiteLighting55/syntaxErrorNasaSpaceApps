@@ -1,6 +1,6 @@
 body {
   
-            font-family: Arial, sans-serif;
+            font-family: Franklin Gothic Medium,sans-serif;
             background-color: #000000;
             margin: 0;
             padding: 0;
@@ -30,6 +30,8 @@ body {
             vertical-align: top;
             width: 30%;
             text-align: left;
+            align: content;
+            display: flex;
         }
 
         ul ul {
