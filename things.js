@@ -1,2 +1,3 @@
-var ussername = document.getElementById("username");
-alert(ussername);
+
+var ussername = document.getElementById("username").value;
+alert(ussername)
