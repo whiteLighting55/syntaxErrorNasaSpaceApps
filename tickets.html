@@ -12,9 +12,11 @@
         <script type = text/javascript>
             function genPDF(){
                 var doc=new jsPDF();
-                var ctx = canvas.getContext("2d");
+                var img = new image();
+                img.scr = 'assets/logo_longW.png';
+                doc.addImage(img,'png', 20,70,50,50);
                 let text = document.getElementById("nombre_cliente").value;
-                doc.addImage(canvas.toDataURL("assets/logo_longW"),PNG, 30,30)
+                doc.addImage(canvas.toDataURL("assets/logo_longW"),PNG, 30,30);
                 doc.text(20,20,text);
                 doc.save("ticket_de_compra_AstroXplore.pdf");
             }</script>
