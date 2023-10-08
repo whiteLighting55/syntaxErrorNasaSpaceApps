@@ -28,10 +28,10 @@ body {
             border-radius: 5px;
             display: inline-block;
             vertical-align: top;
-            width: 30%;
+            width: 50%;
             text-align: left;
             align: content;
-            display: flex;
+        
         }
 
         ul ul {
