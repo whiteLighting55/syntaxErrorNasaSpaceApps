@@ -5,8 +5,11 @@
         <script type = text/javascript>
             function genPDF(){
                 var doc=new jsPDF();
-                let text = document.getElementById("nombre_cliente").value;
-                doc.text(20,20,text);
+                let name = document.getElementById("nombre_cliente").value;
+                let origin = document.getElementById("").value;
+                let destiny = document.getElementById("").value;
+                doc.text(20,20,name);
+                doc.text(40,20,"sa;iendo de: " + origin);
                 doc.save("ticket_de_compra_AstroXplore.pdf");
             }</script>
         <title>genera tus boletos</title>
