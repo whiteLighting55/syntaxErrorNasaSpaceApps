@@ -1,22 +1,11 @@
-/* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    text-align: center;
-    margin: 20px;
-}
-
-/* Estilos para el título */
 .title {
     font-family: "Verdana", sans-serif;
     font-size: 28px;
     margin-bottom: 20px;
-    color: #333;
+    color: #000;
+    text-align: center;
+    background-color: #6699ff;
+    padding: 10px;
 }
 
 /* Estilos para los paquetes */
