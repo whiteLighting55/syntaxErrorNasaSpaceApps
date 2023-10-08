@@ -40,15 +40,18 @@ body {
         }
 
 .hi {
-    font-family: "Amatic SC", sans-serif;
-}
-.element {
-    float: left;
+    font-family: "Moderno", sans-serif;
 }
 .contenedor {
-    text-align: center;
-    font-weight: bold;
-    font-family: "Merriweather", sans-serif
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
 }
-
+.li{
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
 }
