@@ -23,7 +23,7 @@ body {
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
             border-radius: 5px;
             display: inline-block;
-            vertical-align: top;
+            vertical-align: center;
         }
 
         ul ul {
@@ -44,7 +44,7 @@ body {
     max-width: 1200px;
     overflow: hidden;
     margin: auto;
-    padding: 35px 0;
+    padding: 35px;
 }
 .li{
     text-align: center;
