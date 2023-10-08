@@ -9,7 +9,7 @@ body {
         h1 {
             text-align: center;
             background-color: #333;
-            color: #fff;
+            color: #6F77FA;
             padding: 10px;
         }
 
@@ -21,14 +21,14 @@ body {
         }
 
         li {
-            background-color: #fff;
+            background-color: #9697B7;
             padding: 20px;
             margin: 10px;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
             border-radius: 5px;
             display: inline-block;
             vertical-align: top;
-            width: 30%; /* Ajusta el ancho según tus preferencias */
+            width: 30%;
             text-align: left;
         }
 
