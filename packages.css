@@ -44,7 +44,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #ACADB9;
+    color: white;
     padding: 10px 20px;
     display: inline-block;
     line-height: 250%; 
@@ -101,7 +101,7 @@ p{
 }
 
 .imagetitle{
-    color: #9697B7;
+    color: white;
     text-align: center;
     margin: 1%;
     font-size: 20px;
