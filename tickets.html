@@ -4,12 +4,15 @@
         <title>genera tus boletos</title>
     </head>
     <body>
+        <a href="javascript: genPDF"></a>
         <input type = "text" id="text">
         <script type = text/javascript>
+        function genPDF(){
             var doc = new jsPDF();
             let text = document.getElementById("text").value;
             doc.text(20,20,text);
             doc.save("ticket de compra AstroXplore.pdf")
+        }
         </script>
     </body>
 </html>
