@@ -2,6 +2,13 @@
     <head>
         <link rel="shortcut icon" href="assets/icono.png">
         <script type="text/javascript" src="jspdf.min.js"></script>
+        <title>genera tus boletos</title>
+    </head>
+    <body>
+        <h1>complete </h1>
+        <input type = "text" id="nombre_cliente" placeholder="introduzca el nombre del cliente">
+        <input type="text">
+        <a href="javascript:genPDF()">generar pdf</a>
         <script type = text/javascript>
             function genPDF(){
                 var doc=new jsPDF();
@@ -11,12 +18,5 @@
                 doc.text(20,20,text);
                 doc.save("ticket_de_compra_AstroXplore.pdf");
             }</script>
-        <title>genera tus boletos</title>
-    </head>
-    <body>
-        <h1>complete </h1>
-        <input type = "text" id="nombre_cliente" placeholder="introduzca el nombre del cliente">
-        <input type="text">
-        <a href="javascript:genPDF()">generar pdf</a>
     </body>
 </html>
