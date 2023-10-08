@@ -1,9 +1,16 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 header{
     top: 0;
     left: 0;
     width: 100%;
     z-index: 100;
 }
+
 .fixed-header{
     position: fixed;
     top: 0;
@@ -11,22 +18,26 @@ header{
     width: 100%;
     z-index: 100;
 }
+
 .imagen-principal{
     width: 30%;
     height: 30%;
 }
-navback{
-    ground-color: #333;
+
+nav {
+    background-color: #333;
     color: #fff;
     text-align: center;
     width: 100%; 
     height: 55%;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-}
+
 li {
     display: inline;
 }
@@ -39,11 +50,17 @@ a {
     line-height: 250%; 
     text-align: center;
 }
+
+a:hover {
+    background-color: #555;
+}
+
 h2{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
 }
+
 p{
     font-size: 20px;
 }
@@ -51,6 +68,7 @@ p{
 .espacio{
     margin-top: 40%;
 }
+
 .contenedor{
     width: 90%;
     max-width: 400%;
@@ -58,16 +76,53 @@ p{
     margin: auto;
     padding: 60px 0;
 }
+
+.contenedor-galeria{
+    display: grid;
+    justify-content: space_evenly;
+    flex-wrap: wrap;
+	grid-template-columns: repeat(3,1fr);
+}
+	
+.img-galeria{
+	width: 100%;
+    height: 90%;
+	display: block;
+	margin-bottom: 1%;
+    margin-top: 10%;
+	box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+	cursor: pointer;
+    border-radius: 100%;
+}
+
+.imagetext{
+	color: white;
+	text-align: center;
+}
+
 .imagetitle{
     color: #9697B7;
     text-align: center;
     margin: 1%;
     font-size: 20px;
 }
+
+.contenedor-total{
+    width: 100%;
+    max-width: 400%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.gallery{
+	background: black;
+}
+	
 .subtitulo{
 	color: white;
 	text-align: center;
 }
+
 .logo {
     background-color: #00001b;
     display: flex;
@@ -76,6 +131,11 @@ p{
     padding: 10px 20px;
     z-index: 100;
 }
+
+.logo img {
+    height: 50px;
+}
+
 .menu-right {
     list-style: none;
     padding: 0;
@@ -86,6 +146,7 @@ p{
 .menu-right li {
     margin-left: 20px; 
 }
+
 .item{
     margin-top: 3%;
     margin-left: 1%;
@@ -105,6 +166,7 @@ p{
     box-shadow: 0px 15px 25px rgba(0,0,0,.50);
     background-color: black;
 }
+
 .letra-titule{
     color: white;
     background: black;
@@ -116,3 +178,6 @@ p{
 .texto-franklin {
     font-family: 'Franklin Gothic Light', sans-serif;
 }
+
+
+
