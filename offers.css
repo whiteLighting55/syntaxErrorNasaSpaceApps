@@ -1,0 +1,42 @@
+body {
+  
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        li {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            display: inline-block;
+            vertical-align: top;
+            width: 30%; /* Ajusta el ancho según tus preferencias */
+            text-align: left;
+        }
+
+        ul ul {
+            list-style-type: disc;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        p {
+            margin: 10px 0;
