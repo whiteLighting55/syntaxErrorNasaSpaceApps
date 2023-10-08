@@ -58,6 +58,16 @@ p{
     margin: auto;
     padding: 60px 0;
 }
+.imagetitle{
+    color: #9697B7;
+    text-align: center;
+    margin: 1%;
+    font-size: 20px;
+}
+.subtitulo{
+	color: white;
+	text-align: center;
+}
 .logo {
     background-color: #00001b;
     display: flex;
