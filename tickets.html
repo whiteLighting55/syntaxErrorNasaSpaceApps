@@ -6,10 +6,10 @@
             function genPDF(){
                 var doc=new jsPDF();
                 let name = document.getElementById("nombre_cliente").value;
-                let origin = document.getElementById("").value;
-                let destiny = document.getElementById("").value;
-                doc.text(20,20,name);
-                doc.text(40,20,"sa;iendo de: " + origin);
+                let origin = document.getElementById("origin").value;
+                let destiny = document.getElementById("destiny").value;
+                doc.text(20,20,name + "\n" 
+                + origin);
                 doc.save("ticket_de_compra_AstroXplore.pdf");
             }</script>
         <title>genera tus boletos</title>
@@ -17,7 +17,8 @@
     <body>
         <h1>complete </h1>
         <input type = "text" id="nombre_cliente" placeholder="introduzca el nombre del cliente">
-        <input type="text">
+        <input type="text" id="origin" placeholder="introduzca su orgen">
+        <input type="text" id="destiny" placeholder="introduce tu lugar de destino">
         <a href="javascript:genPDF()">generar pdf</a>
     </body>
 </html>
