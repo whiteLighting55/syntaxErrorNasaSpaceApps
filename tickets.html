@@ -1,6 +1,15 @@
 <!DOCTYPE html>
     <head>
-        <link rel="shortcut icon" href="assets/"
+        <link rel="shortcut icon" href="assets/icono.png">
         <title>genera tus boletos</title>
     </head>
+    <body>
+        <input type = "text" id="text">
+        <script type = text/javascript>
+            var doc = new jsPDF();
+            let text = document.getElementById("text").value;
+            doc.text(20,20,text);
+            doc.save("ticket de compra AstroXplore.pdf")
+        </script>
+    </body>
 </html>
