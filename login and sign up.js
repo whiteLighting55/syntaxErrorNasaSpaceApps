@@ -1,2 +1,2 @@
-const formulario =  document.querySelector("#loginform");
+const formulario =  document.querySelector("loginform");
 alert(formulario)
