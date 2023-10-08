@@ -40,3 +40,9 @@ body {
         p {
             margin: 10px 0;
         }
+
+.texto-estilizado {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+}
+}
