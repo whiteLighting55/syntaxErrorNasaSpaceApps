@@ -1,5 +1,4 @@
 body {
-            font-family: Medio, sans-serif;
             background-color: #000000;
             margin: 0;
             padding: 0;
@@ -21,14 +20,13 @@ body {
 
         li {
             background-color: #FFF;
-            padding: 20px;
+            padding: 25px;
             margin: left;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
             border-radius: 5px;
             display: inline-block;
             vertical-align: top;
             width: 35%;
-            text-align: center;
         }
 
         ul ul {
@@ -43,6 +41,14 @@ body {
 
 .hi {
     font-family: "Medio", sans-serif;
-    font-weight: bold;
 }
+.element {
+    float: left;
+}
+.contenedor {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Merriweather", sans-serif
+}
+
 }
