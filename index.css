@@ -43,6 +43,7 @@ li {
 }
 
 a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
     color: #fff;
     padding: 10px 20px;
