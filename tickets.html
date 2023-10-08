@@ -8,8 +8,9 @@
                 let name = document.getElementById("nombre_cliente").value;
                 let origin = document.getElementById("origin").value;
                 let destiny = document.getElementById("destiny").value;
-                doc.text(20,20,name + "\n" 
-                + origin);
+                doc.text(20,20,name)
+                doc.text(40,20,origin)
+                doc.addImage("assets/logo_longW", png, 50,50)
                 doc.save("ticket_de_compra_AstroXplore.pdf");
             }</script>
         <title>genera tus boletos</title>
