@@ -81,7 +81,7 @@ p{
     display: grid;
     justify-content: space_evenly;
     flex-wrap: wrap;
-	grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
 }
 	
 .img-galeria{
@@ -110,7 +110,7 @@ p{
 .contenedor-total{
     width: 100%;
     max-width: 400%;
-    margin: auto;
+    margin: center;
     padding: 60px 0;
 }
 
