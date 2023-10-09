@@ -11,8 +11,9 @@
                 let flying_mode= document.getElementById("flying_mode").value;
                 doc.text(20,20,"nombre del pasajero: "+name);
                 doc.text(20,40,"lugar de origen: "+origin);
-                doc.text(20,60,destiny);
-                doc.text(20,80,flying_mode)
+                doc.text(20,60,"destino: "+destiny);
+                doc.text(20,80,"tipo de viaje: "+flying_mode)
+                doc.text(20,100,"este boleto es su seguro de viajero")
                 doc.save("ticket_de_compra_AstroXplore.pdf");
             }</script>
         <title>genera tus boletos</title>
